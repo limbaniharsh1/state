@@ -3,7 +3,7 @@ import './App.css';
 import React,{useState} from 'react';
 
 function App() {
-  let[state,setState]=useState(0);
+  let[state,setState]=useState('');
   function check(e){
     console.log(e)
   }
